@@ -1,7 +1,5 @@
 package com.hulele.model;
 
-import java.util.Date;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -13,13 +11,10 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "Order")
+@Table(name = "Orders")
 @Entity
-public class Order {
+public class Orders {
 	@Id
 	private int id;
 	private int userId;
-	private int prodId;
-	private int quantity;
-	private Date orderDate;
 }
