@@ -1,4 +1,4 @@
-package com.configserver;
+package com.hulele;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
