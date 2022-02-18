@@ -2,10 +2,9 @@ package com.hulele.model;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
-import com.hulele.repository.BuyerRep;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -15,6 +14,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "Buyer")
+@Entity
 public class Buyer{
 	@Id
 	private int id;

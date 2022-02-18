@@ -1,5 +1,7 @@
 package com.hulele.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
@@ -10,7 +12,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "Product")
+@Entity
 public class Product {
+	@Id
 	private int id;
 	private String pName;
 	private int pQuantity;

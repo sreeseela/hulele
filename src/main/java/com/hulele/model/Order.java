@@ -2,6 +2,8 @@ package com.hulele.model;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
@@ -12,7 +14,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "Order")
+@Entity
 public class Order {
+	@Id
 	private int id;
 	private int userId;
 	private int prodId;
