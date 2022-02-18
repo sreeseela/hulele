@@ -1,1 +1,1 @@
-### hulele an E-commerce website.
+### Hulele - an e-commerce website.
