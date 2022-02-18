@@ -1,0 +1,14 @@
+server:
+  port : 3333
+spring:
+  application:
+    name: HULELE
+  datasource:
+    url: jdbc:mysql://localhost:3306/huleleDatabase
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: D@r3d3v1l
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
